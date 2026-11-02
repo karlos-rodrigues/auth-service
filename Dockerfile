@@ -5,7 +5,7 @@
 # Imagem final: distroless/static (~2 MB de base, sem shell, sem gerenciador de pacotes).
 
 # ---------- estágio 1: build ----------
-FROM golang:1.21-alpine AS build
+FROM golang:1.25-alpine AS build
 
 WORKDIR /src
 
